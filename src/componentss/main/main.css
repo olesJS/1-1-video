@@ -1,0 +1,116 @@
+#mainContainer{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 102.5%;
+    padding-bottom: 0%;
+}
+#mainBlock{
+    background-color: white;
+    height: 100%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    padding-top: 5.75%;
+    padding-bottom: 0%;
+}
+#mainFirstTxt{
+    margin-left: 17%;
+    width: 35%;
+}
+#mainFirst{
+    display: flex;
+}
+#mainHeader{
+    text-align: left;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+}
+#mainFirstImg{
+    margin-left: 8.5%;
+    width: 21%;
+    height: 31.5%;
+}
+#mainFirstP{
+    line-height: 25px;
+    margin-top: 22.5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.mainHR{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(20, 20, 20);
+}
+#mainPoltavaImg{
+    width: 75%;
+    height: 20%;
+}
+#mainSecondHeader{
+    text-align: left;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    margin-left: 17%;
+}
+#mainSecondInfo{
+    display: flex;
+    padding-bottom: 2.5%;
+}
+#mainSecondImg{
+    margin-left: 17%;
+    margin-top: 25px;
+    width: 16%;
+    height: 24%;
+}
+#mainSecondInfoTxt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 25px;
+}
+.mainSecondSummary{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+#detailsP{
+    margin-top: 17.5px;
+    font-size: 1.05em;
+}
+#mainSecondButtons{
+    display: flex;
+    margin-top: 25px;
+}
+.mainSecondButton{
+    border: 0.5px solid rgba(180, 180, 180, 0.493);
+    border-radius: 0px;
+    background-color: white;
+}
+#mainFirstButton{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(124, 124, 124);
+    margin-left: 0px;
+}
+#mainSecondButton{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(124, 124, 124);
+    margin-left: 4%;
+}
+#mainThirdButton{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(124, 124, 124);
+    margin-left: 4%;
+}

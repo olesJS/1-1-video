@@ -1,0 +1,55 @@
+#videoContainer{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0%;
+}
+#videoBlock{
+    background-color: white;
+    height: 100%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    padding-top: 5.75%;
+    padding-bottom: 0%;
+}
+#videoHeader{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#seasonsContainer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 190px 190px 190px 190px;
+    margin-top: 1.75%;
+    padding-bottom: 3.5%;
+}
+.season{
+    display: flex;
+    flex-direction: column;
+    border: 1px outset rgb(199, 199, 199);
+    border-radius: 7%;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+    padding-top: 15px;
+    padding-bottom: 8.5px;
+    color: black;
+}
+.season:hover{
+    background-color: rgb(202, 201, 201);
+}
+.seasonImg{
+    width: 205px;
+    height: 120px;
+    border-radius: 5%;
+}
+.seasonTxt{
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: none;
+    color: black;
+}

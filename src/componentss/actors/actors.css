@@ -1,0 +1,123 @@
+#actorsContainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    background-color: whitesmoke;
+}
+#actorsBlock{
+    background-color: white;
+    height: 100%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 0%;
+    padding-top: 5.75%;
+}
+#actorsHeader{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+#actorsList{
+    display: flex;
+    flex-direction: column;
+}
+.actorName{
+    display: flex;
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+}
+#yuraBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: rgba(250, 201, 145, 0.39);
+}
+#yuraBorder:hover{
+    background-color: rgba(240, 195, 112, 0.794);
+}
+#yarinkaBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: rgba(246, 146, 255, 0.39);
+}
+#yarinkaBorder:hover{
+    background-color: rgba(217, 66, 255, 0.431);
+}
+#kumBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: rgba(161, 255, 200, 0.39);
+}
+#kumBorder:hover{
+    background-color: rgba(60, 255, 135, 0.52);
+}
+#viraBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: #ff05054b;
+}
+#viraBorder:hover{
+    background-color: rgba(255, 8, 8, 0.698);
+}
+#sanyaBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: #367cff4b;
+}
+#sanyaBorder:hover{
+    background-color: #0f63ff93;
+}
+#didBorder{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: #f1ff324b;
+}
+#didBorder:hover{
+    background-color: rgba(255, 255, 0, 0.657);
+}
+.actorImg{
+    margin-left: 7.5%;
+    width: 155px;
+    height: 175px;
+    border-radius: 30px;
+}
+.actorTxt{
+    margin-left: 3%;
+    margin-top: 3.5%;
+}
+.actorTexts{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 14%;
+}
+.actorButtons{
+    display: flex;
+    margin-left: auto;
+    margin-right: 7.5%;
+    margin-top: 65px;
+}
+.actorsLogos{
+    width: 45px;
+    height: 45px;
+    margin-left: 8.5px;
+}

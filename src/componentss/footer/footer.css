@@ -1,0 +1,16 @@
+#footer{
+    background-color: rgb(26, 25, 25);
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+#footLogos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+.footImg{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
